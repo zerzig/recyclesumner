@@ -1,13 +1,5 @@
-// -----------------------------------------------------------------------------
-// This file contains very basic styles.
-// -----------------------------------------------------------------------------
+// Set up a decent box model on the root element
 
-/* _base.scss */
-
-
-/**
- * Set up a decent box model on the root element
- */
 html {
   box-sizing: border-box;
 }
@@ -22,15 +14,42 @@ html {
   box-sizing: inherit;
 }
 
-/**
- * Basic styles for links
- */
-a {
-  color: $brand-color;
-  text-decoration: none;
+// Link Styles
 
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
-  }
+a {
+  color: $link-color;
+  text-decoration: none;
 }
+
+// Basic typography style for copy text
+
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $text-font-stack;
+}
+
+
+
+// Navigation
+
+
+
+// header
+header h1 {
+  font-size: 4rem;
+}
+
+header h2 {
+  color: $grey70;
+}
+
+
+// footer
+
+
+
+// sidebar
+
+
+
+// Contact form

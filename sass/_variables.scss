@@ -20,11 +20,15 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 
 /// Copy text color
 /// @type Color
-$text-color: rgb(34, 34, 34) !default;
+$text-color: rgb(0, 0, 0) !default;
 
 /// Main brand color
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
+$brand-color: rgb(2, 113, 0) !default;
+
+/// Link color
+/// @type Color
+$link-color: rgb(0, 37, 167);
 
 /// Light grey
 /// @type Color

@@ -4,5 +4,8 @@
 body {
   color: $text-color;
   font: normal 125% / 1.4 $text-font-stack;
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+header h2 {
+  color: $grey70;
 }
